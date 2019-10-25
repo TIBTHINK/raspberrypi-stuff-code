@@ -7,7 +7,11 @@ import random
 
 a = input("would you like to fuckin shred your cpu into pieces: ")
 
-if "yes" in a():
+if "yes" in a:
     while True:
         os.system("du / -h")
-        
+else:
+    os.system("clear")
+    sleep(.1)
+    print("ok whore")
+    exit()
