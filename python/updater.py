@@ -8,7 +8,7 @@ import sys
 
 
 if os.geteuid() != 0:
-    exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo' then run the script.\nExiting.")
+    exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo !!' then run the script.\nExiting.")
 
 print("Fantastic, lets get started")
 time.sleep(3)
