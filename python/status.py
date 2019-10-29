@@ -1,5 +1,6 @@
 #doesnt work i have a syntax error on line 29
 import io
+import os
 from time import sleep
 
 if os.geteuid() != 0:
@@ -11,8 +12,9 @@ b = input("do you have a led set up to this pi on pin 8?: ")
 if "yes" in a:
     while True:
 
-        if yes in b:
+        if "yes" in b:
             while True:
+
                 import RPi.GPIO as GPIO
 
                 GPIO.setwarnings(False)
@@ -27,7 +29,7 @@ if "yes" in a:
                 if tF > 112:
                     GPIO.output(8, GPIO.HIGH)
                     sleep(.1)
-                    GPIO.output(8, GPIO.LOW
+                    GPIO.output(8, GPIO.LOW)
                     sleep(.1)
 
                 else:
@@ -51,23 +53,3 @@ if "yes" in a:
                     sleep(1)
     else:
         print("sorry but this program will most likely not work on your pc")
-
-
-
-
-            else:
-                print("ok thats cool")
-
-                f = open("/sys/class/thermal/thermal_zone0/temp", "r")
-                    t = float(f.readline())
-                    tC = t/1000
-                    tF = 9.0/5.0 * tC + 32
-
-
-                    print(round(tF))
-                    sleep(1)
-    else:
-        print("sorry but this program will most likely not work on your pc")
-
-
-
