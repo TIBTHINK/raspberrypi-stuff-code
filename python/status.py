@@ -26,7 +26,7 @@ if "yes" in a:
                     GPIO.output(8, GPIO.HIGH)
                     sleep(.1)
                     GPIO.output(8, GPIO.LOW
-                    sleept(.1)
+                    sleep(.1)
                 else:
                     GPIO.output(8, GPIO.LOW)
     
