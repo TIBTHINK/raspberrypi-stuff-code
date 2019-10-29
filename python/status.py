@@ -1,4 +1,5 @@
 import io
+import os
 from time import sleep
 
 if os.geteuid() != 0:
