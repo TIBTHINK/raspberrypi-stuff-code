@@ -1,4 +1,4 @@
-#doesnt work i have a syntax error on line 29
+#doesnt work i have a syntax error on line 43
 import io
 import os
 from time import sleep
