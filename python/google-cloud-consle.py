@@ -2,7 +2,7 @@ import os
 from time import sleep
 import random
 import sys
-
+import math
 
 if os.geteuid() != 0:
     exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo !!' then run the script.\nExiting.")
