@@ -1,4 +1,3 @@
-# doesnt work i have a syntax error on line 43
 import os
 from time import sleep
 
