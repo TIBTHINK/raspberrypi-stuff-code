@@ -12,7 +12,6 @@ if "yes" in a:
         b = input("do you have a led set up to this pi on pin 8?: ")
         if "yes" in b:
             while True:
-
                 import RPi.GPIO as GPIO
 
                 GPIO.setwarnings(False)

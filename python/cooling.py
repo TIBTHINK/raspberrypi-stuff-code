@@ -15,7 +15,7 @@ while True:
     tC = t/1000
     tF = 9.0/5.0 * tC + 32
 
-    if tF > 112:
+    if tF > 105:
         GPIO.output(8, GPIO.HIGH)
     else:
         GPIO.output(8, GPIO.LOW)
