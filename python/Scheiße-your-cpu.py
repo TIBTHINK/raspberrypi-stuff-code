@@ -13,7 +13,7 @@ a = input("would you like to Scheiße shred your cpu into pieces: ")
 
 if "yes" in a:
     while True:
-        os.system("du / -h")
+        os.system("find myLoveLife /")
 else:
     os.system("clear")
     sleep(.1)
