@@ -5,8 +5,8 @@ from time import sleep
 import os
 import random
 
-if os.geteuid() != 0:
-    exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo !!' then run the script.\nExiting.")
+# if os.geteuid() != 0:
+#     exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo !!' then run the script.\nExiting.")
 
 
 a = input("would you like to Scheiße shred your cpu into pieces: ")
