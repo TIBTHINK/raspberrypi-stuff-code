@@ -2,8 +2,8 @@ import decimal
 
 def pi():
     
-    decimal.getcontext().prec += 2  # extra digits for intermediate steps
-    three = decimal.Decimal(3)      # substitute "three=3.0" for regular floats
+    decimal.getcontext().prec += 2  
+    three = decimal.Decimal(3)      
     lasts, t, s, n, na, d, da = 0, three, 3, 1, 0, 0, 24
     while s != lasts:
         lasts = s
@@ -12,7 +12,7 @@ def pi():
         t = (t * n) / d
         s += t
     decimal.getcontext().prec -= 2
-    return +s               # unary plus applies the new precision
+    return +s               
 
 decimal.getcontext().prec = 5**14
 pi = pi()
