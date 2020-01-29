@@ -8,7 +8,7 @@ print("###WARNING###")
 print("this code will delete everything in the repo if ran")
 print("it is recomended that you use curl to run this command to leave no edvidence")
 
-a = input("are you sure you want to do this?: ")
+a = input("are you sure you want to do this? (type yes if you are sure): ")
 
 if "yes" in a:
     while True:
