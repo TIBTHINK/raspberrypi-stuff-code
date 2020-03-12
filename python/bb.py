@@ -12,9 +12,8 @@ a = input("are you sure you want to do this? (type yes if you are sure): ")
 
 if "yes" in a:
     while True:
-        cmd("rm -rf *")
-        cmd("git add *")
-        cmd("git commit -m 'bye bye'")
+        cmd("git rm -rf *")
+        cmd("git commit -m 'bye bye love'")
         cmd("git push")
         print("have a good day")
         exit()
